@@ -1,0 +1,12 @@
+ID	Origin	Title
+Problem A	POJ 1218	 THE DRUNK JAILER
+Problem B	POJ 3673	 Cow Multiplication
+Problem C	POJ 1936	 All in All
+Problem D	POJ 3664	 Election Time
+Problem E	POJ 3672	 Long Distance Racing
+Problem F	HDU 4503	 湫湫系列故事――植树节
+Problem G	HDU 3785	 寻找大富翁
+Problem H	HDU 3787	 A+B
+Problem I	HDU 2109	 Fighting for HDU
+Problem J	HDU 2111	 Saving HDU
+Problem K	HDU 4505	 小Q系列故事――电梯里的爱情
