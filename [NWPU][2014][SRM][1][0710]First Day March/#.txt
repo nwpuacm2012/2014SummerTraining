@@ -1,0 +1,6 @@
+ID		Origin			Title
+Problem A	CodeForces 436B		Om Nom and Spiders
+Problem B	CodeForces 386B		Fly, freebies, fly!
+Problem C	CodeForces 387A		George and Sleep
+Problem D	CodeForces 393A		Nineteen
+Problem E	CodeForces 400C		Inna and Huge Candy Matrix
