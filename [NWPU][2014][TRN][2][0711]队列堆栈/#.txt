@@ -1,0 +1,8 @@
+ID	Origin	Title
+Problem A	UVALive 5149	 队列A
+Problem B	UVA 10935	 队列B
+Problem C	UVA 514	 堆栈A
+Problem D	UVA 442	 堆栈B
+Problem E	UVA 11388	 数学题A
+Problem F	UVA 11889	 数学题B
+Problem G	UVA 10943	 数学题C
