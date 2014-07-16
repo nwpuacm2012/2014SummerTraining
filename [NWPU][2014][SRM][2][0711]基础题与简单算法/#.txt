@@ -1,0 +1,6 @@
+ID		Origin			Title
+Problem A	POJ 1012		A
+Problem B	POJ 1002		B
+Problem C	UVA 12108		C
+Problem D	UVA 540			D
+Problem E	UVA 136			E
