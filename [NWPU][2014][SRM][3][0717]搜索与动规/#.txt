@@ -1,0 +1,6 @@
+ID	Origin	Title
+Problem A	POJ 3253	 Fence Repair
+Problem B	POJ 3176	 Cow Bowling
+Problem C	POJ 1018	 Communication System
+Problem D	POJ 3087	 Shuffle'm Up
+Problem E	POJ 1837	 Balance
