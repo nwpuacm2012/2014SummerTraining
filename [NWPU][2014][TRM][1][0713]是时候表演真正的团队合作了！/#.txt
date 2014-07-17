@@ -1,0 +1,8 @@
+ID	Origin	Title
+Problem A	UVA 10780	 A
+Problem B	UVA 10892	 B
+Problem C	UVA 11038	 C
+Problem D	POJ 3414	 D
+Problem E	UVA 10474	 E
+Problem F	CodeForces 304A	 F
+Problem G	CodeForces 304B	 G
