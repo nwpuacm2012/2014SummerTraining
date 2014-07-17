@@ -1,0 +1,8 @@
+ID	Origin	Title
+Problem A	UVA 1339	 Ancient Cipher
+Problem B	UVA 10129	 Play on Words
+Problem C	UVA 489	 Hangman Judge
+Problem D	UVA 816	 Abbott's Revenge
+Problem E	POJ 3122	 Pie
+Problem F	UVA 11636	 Hello World!
+Problem G	POJ 2393	 Yogurt factory
