@@ -36,7 +36,7 @@
 [NWPU][2014][TRN][6][0716]简单线性dp
 [比赛地址](http://vjudge.net/contest/view.action?cid=49759#overview)<br />
 [NWPU][2014][TRN][7][0717]背包问题
-[比赛地址](http://vjudge.net/contest/view.action?cid=49921#overview)<br />
+[比赛地址](http://vjudge.net/contest/view.action?cid=49932#overview)<br />
 其余训练场次：Other Training March，OTRN
 ------------------------------
 [NWPU][2014][OTRN][0715]线段树 
