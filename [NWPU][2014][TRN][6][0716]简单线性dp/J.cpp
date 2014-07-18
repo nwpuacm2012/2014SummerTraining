@@ -10,11 +10,6 @@
 * @algorithm    :DP
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -26,30 +21,32 @@ using namespace std;
 template<class T>inline bool updateMin(T& a, T b){ return a > b ? a = b, 1 : 0; }
 template<class T>inline bool updateMax(T& a, T b){ return a < b ? a = b, 1 : 0; }
 
-/*//STL
-#include <map>
-#include <vector>
-#include <list>
-#include <stack>
-#include <deque>
-#include <queue>
-*/
+const int MaxN = 1005;
+int n, a[MaxN], dp[MaxN];
 
-/*//Computational Geometry
-#include <complex>
-#define x real()
-#define y imag()
-typedef complex<double> point;
-*/
-
-typedef long long int64;
+//  最大上升子序列的和LIS
+//  dp[i]表示，前i个数组成的序列中，最长的非增序列的长度
+//  转移方程 ( 0 <= j < i )
+//  if (a[i] > a[j] && dp[i] < dp[j] + a[i]) dp[i] = a[i] + dp[j];
 
 void solve()
 {
-
+    for (int i = 0; i < n; i++) scanf("%d", &a[i]);
+    dp[0] = a[0];
+    for (int i = 1; i < n; i++)
+    {
+        dp[i] = a[i];
+        for (int j = 0; j < i; j++)
+            if (a[i] > a[j] && dp[i] < dp[j] + a[i])
+                dp[i] = a[i] + dp[j];
+    }
+    int ans = dp[0];
+    for (int i = 1; i < n; i++) updateMax(ans, dp[i]);
+    printf("%d\n", ans);
 }
 
 int main()
 {
+	while (~scanf("%d", &n) && n) solve();
 	return 0;
 }

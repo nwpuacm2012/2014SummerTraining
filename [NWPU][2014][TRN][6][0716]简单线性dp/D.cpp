@@ -10,11 +10,6 @@
 * @algorithm    :DP
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -32,6 +27,14 @@ const int MaxN = 100005;
 int a[MaxN], dp[MaxN];
 int t, tt, n, s, e;
 int ans, fs, fe;
+
+//  最大子串和
+//  dp[i]表示到第i个数以i为结尾的子串（包括第i个）的最大值
+//  转移方程：判断是添加一个数后更大，还是另外新开一个更大
+//  dp[i] = max(dp[i - 1] + a[i], a[i])
+//  ans = max{dp[i]};
+//  当新开一个时（也就是a[i] > dp[i - 1] + a[i]时），更新左节点
+//  否则，更新右节点
 
 void solve()
 {

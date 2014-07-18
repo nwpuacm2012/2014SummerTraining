@@ -7,14 +7,9 @@
 * @name         :[NWPU][2014][TRN][6] L
 * @file         :G:\My Source Code\【ACM】训练\[NWPU][2014][TRN][6][0716]简单线性dp\L.cpp
 * @date         :2014/07/16 11:59
-* @algorithm    :DP
+* @algorithm    :Greedy
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -26,30 +21,33 @@ using namespace std;
 template<class T>inline bool updateMin(T& a, T b){ return a > b ? a = b, 1 : 0; }
 template<class T>inline bool updateMax(T& a, T b){ return a < b ? a = b, 1 : 0; }
 
-/*//STL
-#include <map>
-#include <vector>
-#include <list>
-#include <stack>
-#include <deque>
-#include <queue>
-*/
+const int MaxN = 405;
+int t, n, from, to;
+int room[MaxN];
 
-/*//Computational Geometry
-#include <complex>
-#define x real()
-#define y imag()
-typedef complex<double> point;
-*/
-
-typedef long long int64;
+//  room[i]表示从房间i经过的次数
+//  ans = max{room[i]} * 10;
 
 void solve()
 {
-
+	scanf("%d", &n);
+	memset(room, 0, sizeof(room));
+	while (n--)
+	{
+		scanf("%d%d", &from, &to);
+		if (to % 2) to++;
+		if (from % 2) from++;
+		if (from > to) swap(from, to);
+		for (int i = from; i <= to; i += 2) room[i]++;
+	}
+	int ans = room[0];
+	for (int i = 1; i < MaxN; i++) updateMax(ans, room[i]);
+	printf("%d0\n", ans);
 }
 
 int main()
 {
+	scanf("%d", &t);
+	while (t--) solve();
 	return 0;
 }

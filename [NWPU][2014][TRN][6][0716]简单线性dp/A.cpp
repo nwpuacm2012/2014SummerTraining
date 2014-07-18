@@ -10,11 +10,6 @@
 * @algorithm    :DP
 ******************************************************************************/
 
-#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -26,17 +21,14 @@ using namespace std;
 template<class T>inline bool updateMin(T& a, T b){ return a > b ? a = b, 1 : 0; }
 template<class T>inline bool updateMax(T& a, T b){ return a < b ? a = b, 1 : 0; }
 
-#include <map>
 #include <vector>
-#include <list>
-#include <stack>
-#include <deque>
-#include <queue>
-
-typedef long long int64;
 
 int tt, s, i;
 vector<int> a(100005), dp(100005);
+
+//  dp[i]表示，前i个数组成的序列中，最长的非增序列的长度
+//  转移方程 ( 0 <= k < j )
+//  if (a[j] < a[k] && dp[j] <= dp[k]) dp[j] = 1 + dp[k];
 
 void solve()
 {

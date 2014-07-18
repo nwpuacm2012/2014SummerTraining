@@ -31,6 +31,14 @@ const int MaxL = 105;
 int dp[MaxL][MaxL], grid[MaxL][MaxL];
 int n, m;
 
+//  最长下降的路
+//  dp[i][j]表示到节点(i, j)的最大值
+//  转移方程：判断四个方向哪一个满足条件并且更大即可
+//  dp[i][j] = max(dp[i - 1][j] + 1, dp[i + 1][j] + 1,
+//  			dp[i][j - 1] + 1, dp[i][j + 1] + 1);
+//  ans = max{dp[i][j]};
+//  利用记忆化搜索进行处理，这样可以减少计算
+
 int dfs(int x, int y)
 {
     if (dp[x][y] != 0) return dp[x][y];

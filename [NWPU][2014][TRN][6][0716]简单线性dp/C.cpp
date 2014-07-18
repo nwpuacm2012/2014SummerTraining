@@ -10,11 +10,6 @@
 * @algorithm    :DP
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -30,6 +25,12 @@ typedef long long int64;
 const int MaxL = 1005;
 string a, b;
 int dp[MaxL][MaxL];
+
+//  最长公共子子串LCS
+//  dp[i][j]表示，分别到a[i]和b[j]结束的串，最长公共子串的长度
+//  转移方程：相同则加1，不同则取最大的
+//  if (a[i] == b[j]) dp[i][j] = dp[i - 1][j - 1] + 1;
+//  else dp[i][j] = max(dp[i][j - 1], dp[i - 1][j]);
 
 void solve()
 {

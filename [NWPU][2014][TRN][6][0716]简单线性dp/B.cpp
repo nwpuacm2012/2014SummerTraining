@@ -10,11 +10,6 @@
 * @algorithm    :DP
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -30,6 +25,10 @@ typedef long long int64;
 
 const int MaxN = 105;
 int n, a[MaxN][MaxN], dp[MaxN][MaxN];
+
+//  dp[i][j]表示，走到(i, j)时的最大值
+//  转移方程
+//  dp[i][j] = a[i][j] + max(dp[i - 1][j], dp[i - 1][j - 1])
 
 void solve()
 {
