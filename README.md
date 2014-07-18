@@ -39,6 +39,8 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=49932#overview)<br />
 [NWPU][2014][TRN][8][0717]区间DP
 [比赛地址](http://vjudge.net/contest/view.action?cid=49961#overview)<br />
+[NWPU][2014][TRN][9][0718]树状DP
+[比赛地址](http://vjudge.net/contest/view.action?cid=50060#overview)<br />
 其余训练场次：Other Training March，OTRN
 ------------------------------
 [NWPU][2014][OTRN][0715]线段树 
