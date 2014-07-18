@@ -35,6 +35,7 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=49586#overview)<br />
 [NWPU][2014][TRN][6][0716]简单线性dp
 [比赛地址](http://vjudge.net/contest/view.action?cid=49759#overview)<br />
+[题解地址](http://blog.csdn.net/polossk/article/details/37950159)<br />
 [NWPU][2014][TRN][7][0717]背包问题
 [比赛地址](http://vjudge.net/contest/view.action?cid=49932#overview)<br />
 [NWPU][2014][TRN][8][0717]区间DP
