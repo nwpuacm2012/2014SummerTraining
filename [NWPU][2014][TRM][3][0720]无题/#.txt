@@ -1,0 +1,7 @@
+ID	Origin	Title
+Problem A	ZOJ 3714	 Java Beans
+Problem B	ZOJ 3706	 Break Standard Weight
+Problem C	CodeForces 448B	 Suffix Structures
+Problem D	CodeForces 446B	 DZY Loves Modification
+Problem E	CodeForces 448D	 Multiplication Table
+Problem F	FZU 2144	 Shooting Game
