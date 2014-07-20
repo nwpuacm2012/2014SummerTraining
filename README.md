@@ -20,6 +20,8 @@
 [题解地址](http://blog.csdn.net/polossk/article/details/37757385)<br />
 [NWPU][2014][TRM][2][0715]前面的一定不是水题
 [比赛地址](http://vjudge.net/contest/view.action?cid=49714#overview)<br />
+[NWPU][2014][TRM][3][0720]无题
+[比赛地址](http://vjudge.net/contest/view.action?cid=50333#overview)<br />
 平时训练场次：Training March，TRN
 ------------------------------
 [NWPU][2014][TRN][1][0710]水题堆
