@@ -1,7 +1,7 @@
-ID	Origin	Title
+ï»¿ID	Origin	Title
 Problem A	POJ 1611	 The Suspects
 Problem B	POJ 1988	 Cube Stacking
-Problem C	POJ 1182	 Ê³ÎïÁ´
+Problem C	POJ 1182	 é£Ÿç‰©é“¾
 Problem D	POJ 2492	 A Bug's Life
 Problem E	POJ 2524	 Ubiquitous Religions
 Problem F	POJ 1861	 Network

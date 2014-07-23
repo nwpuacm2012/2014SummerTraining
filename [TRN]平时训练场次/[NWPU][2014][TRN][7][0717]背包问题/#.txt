@@ -1,10 +1,10 @@
-ID	Origin	Title
-Problem A	HDU 1114	 完全背包 基础
-Problem B	HDU 2159	 二维费用背包 基础
-Problem C	HDU 2191	 多重背包 基础
-Problem D	HDU 1712	 分组背包 基础
-Problem E	HDU 2955	 01背包 基础
-Problem F	HDU 2602	 01背包
-Problem G	POJ 2063	 完全背包
-Problem H	POJ 1787	 多重背包记录方案
-Problem I	POJ 3624	 01背包（就地滚动）
+锘縄D	Origin	Title
+Problem A	HDU 1114	 瀹屽叏鑳屽寘 鍩虹
+Problem B	HDU 2159	 浜岀淮璐圭敤鑳屽寘 鍩虹
+Problem C	HDU 2191	 澶氶噸鑳屽寘 鍩虹
+Problem D	HDU 1712	 鍒嗙粍鑳屽寘 鍩虹
+Problem E	HDU 2955	 01鑳屽寘 鍩虹
+Problem F	HDU 2602	 01鑳屽寘
+Problem G	POJ 2063	 瀹屽叏鑳屽寘
+Problem H	POJ 1787	 澶氶噸鑳屽寘璁板綍鏂规
+Problem I	POJ 3624	 01鑳屽寘锛堝氨鍦版粴鍔級

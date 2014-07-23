@@ -1,13 +1,13 @@
-ID	Origin	Title
-Problem A	POJ 1887	 ¼òµ¥dp ÀýÌâ
-Problem B	POJ 1163	 ¼òµ¥dp ÀýÌâ
-Problem C	POJ 1458	 ¼òµ¥dp ÀýÌâ
-Problem D	HDU 1003	 ¼òµ¥dp ÀýÌâ
-Problem E	POJ 1088	 ¼òµ¥dp ÀýÌâ
-Problem F	POJ 1157	 ¼òµ¥dp
-Problem G	POJ 2479	 ¼òµ¥dp ÀýÌâÀ©Õ¹
-Problem H	POJ 1159	 ¼òµ¥dp ÀýÌâÀ©Õ¹
-Problem I	HDU 1421	 ¼òµ¥dp
-Problem J	HDU 1087	 ¼òµ¥dp ÀýÌâÀ©Õ¹
-Problem K	POJ 2385	 ¼òµ¥dp
-Problem L	POJ 1083	 ¼òµ¥dp
+ï»¿ID	Origin	Title
+Problem A	POJ 1887	 ç®€å•dp ä¾‹é¢˜
+Problem B	POJ 1163	 ç®€å•dp ä¾‹é¢˜
+Problem C	POJ 1458	 ç®€å•dp ä¾‹é¢˜
+Problem D	HDU 1003	 ç®€å•dp ä¾‹é¢˜
+Problem E	POJ 1088	 ç®€å•dp ä¾‹é¢˜
+Problem F	POJ 1157	 ç®€å•dp
+Problem G	POJ 2479	 ç®€å•dp ä¾‹é¢˜æ‰©å±•
+Problem H	POJ 1159	 ç®€å•dp ä¾‹é¢˜æ‰©å±•
+Problem I	HDU 1421	 ç®€å•dp
+Problem J	HDU 1087	 ç®€å•dp ä¾‹é¢˜æ‰©å±•
+Problem K	POJ 2385	 ç®€å•dp
+Problem L	POJ 1083	 ç®€å•dp

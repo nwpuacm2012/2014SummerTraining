@@ -1,4 +1,4 @@
-ID	Origin	Title
+﻿ID	Origin	Title
 Problem A	POJ 2342	 Anniversary party
 Problem B	POJ 1463	 Strategic game
 Problem C	POJ 2378	 Tree Cutting

@@ -1,8 +1,8 @@
-ID	Origin	Title
-Problem A	HDU 3555	 2010��У
+﻿ID	Origin	Title
+Problem A	HDU 3555	 2010多校
 Problem B	CodeForces 55D	 cf
-Problem C	HDU 2089	 ��Ҫ62
-Problem D	HDU 4389	 2012��У
-Problem E	HDU 3652	 2010�ɶ�����
-Problem F	HDU 3709	 2010�ɶ�������
-Problem G	HDU 4352	 2012��У
+Problem C	HDU 2089	 不要62
+Problem D	HDU 4389	 2012多校
+Problem E	HDU 3652	 2010成都网赛
+Problem F	HDU 3709	 2010成都区域赛
+Problem G	HDU 4352	 2012多校

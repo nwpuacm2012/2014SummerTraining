@@ -1,17 +1,17 @@
-ID	Origin	Title
-Problem A	POJ 2785	 二分 基础
-Problem B	POJ 2456	 二分 基础
-Problem C	POJ 3104	 二分 基础
-Problem D	POJ 1064	 二分 基础
-Problem E	POJ 3258	 二分
-Problem F	POJ 3273	 二分
-Problem G	LightOJ 1088	 二分
-Problem H	LightOJ 1307	 二分
-Problem I	POJ 1905	 二分
-Problem J	HDU 2037	 贪心 基础
-Problem K	HDU 1009	 贪心 基础
-Problem L	POJ 3646	 贪心 基础
-Problem M	POJ 2709	 贪心 基础
-Problem N	HDU 4296	 贪心
-Problem O	POJ 3614	 贪心
-Problem P	POJ 3615	 贪心
+锘縄D	Origin	Title
+Problem A	POJ 2785	 浜屽垎 鍩虹
+Problem B	POJ 2456	 浜屽垎 鍩虹
+Problem C	POJ 3104	 浜屽垎 鍩虹
+Problem D	POJ 1064	 浜屽垎 鍩虹
+Problem E	POJ 3258	 浜屽垎
+Problem F	POJ 3273	 浜屽垎
+Problem G	LightOJ 1088	 浜屽垎
+Problem H	LightOJ 1307	 浜屽垎
+Problem I	POJ 1905	 浜屽垎
+Problem J	HDU 2037	 璐績 鍩虹
+Problem K	HDU 1009	 璐績 鍩虹
+Problem L	POJ 3646	 璐績 鍩虹
+Problem M	POJ 2709	 璐績 鍩虹
+Problem N	HDU 4296	 璐績
+Problem O	POJ 3614	 璐績
+Problem P	POJ 3615	 璐績

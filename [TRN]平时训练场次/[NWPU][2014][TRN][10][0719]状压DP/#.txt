@@ -1,9 +1,9 @@
-ID	Origin	Title
+ï»¿ID	Origin	Title
 Problem A	POJ 3254	 Corn Fields
-Problem B	POJ 1185	 ÅÚ±øÕóµØ
+Problem B	POJ 1185	 ç‚®å…µé˜µåœ°
 Problem C	ZOJ 3471	 Most Powerful
 Problem D	POJ 2411	 Mondriaan's Dream
-Problem E	HDU 3001	 Èı½øÖÆµÄ×´Ñ¹
+Problem E	HDU 3001	 ä¸‰è¿›åˆ¶çš„çŠ¶å‹
 Problem F	POJ 2288	 Islands and Bridges
-Problem G	POJ 3311	 ×´Ñ¹dp£¨tsp£©+floyd
-Problem H	HDU 3681	 ×´Ì¬Ñ¹ËõDP+BFS+¶ş·Ö´ğ°¸
+Problem G	POJ 3311	 çŠ¶å‹dpï¼ˆtspï¼‰+floyd
+Problem H	HDU 3681	 çŠ¶æ€å‹ç¼©DP+BFS+äºŒåˆ†ç­”æ¡ˆ
