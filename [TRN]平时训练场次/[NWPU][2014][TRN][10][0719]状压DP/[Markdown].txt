@@ -1,0 +1,9 @@
+ID	Origin	Title
+Problem A	POJ 3254	 Corn Fields
+Problem B	POJ 1185	 炮兵阵地
+Problem C	ZOJ 3471	 Most Powerful
+Problem D	POJ 2411	 Mondriaan's Dream
+Problem E	HDU 3001	 三进制的状压
+Problem F	POJ 2288	 Islands and Bridges
+Problem G	POJ 3311	 状压dp（tsp）+floyd
+Problem H	HDU 3681	 状态压缩DP+BFS+二分答案

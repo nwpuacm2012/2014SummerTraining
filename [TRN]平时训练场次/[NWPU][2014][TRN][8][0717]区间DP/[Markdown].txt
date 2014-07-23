@@ -1,0 +1,8 @@
+ID	Origin	Title
+Problem A	POJ 1179	 区间dp
+Problem B	POJ 1180	 区间dp （略难）
+Problem C	POJ 1159	 区间dp
+Problem D	ZOJ 3537	 区间dp
+Problem E	HDU 2686	 多线程dp
+Problem F	POJ 1050	 最大子矩形
+Problem G	UVA 10755	 最大子立方
