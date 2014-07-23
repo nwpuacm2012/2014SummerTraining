@@ -10,11 +10,6 @@
 * @algorithm    :Package
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -30,19 +25,19 @@ const int MaxM = 105;
 int t, n, m, dp[MaxM];
 int p[MaxM], h[MaxM], c[MaxM];
 
-//完全背包
+// 完全背包
 void CompletePack(int cost, int weight)
 {
     for (int i = cost; i <= n; i++)
         updateMax(dp[i], dp[i - cost] + weight);
 }
-//01背包
+// 01背包
 void ZeroOnePack(int cost, int weight)
 {
     for (int i = n; i >= cost; i--)
         updateMax(dp[i], dp[i - cost] + weight);
 }
-//多重背包
+// 多重背包
 void MultiplePack(int cost, int weight, int number)
 {
     //如果大于等于金额，就按完全背包处理（此时相当于不限定袋数）

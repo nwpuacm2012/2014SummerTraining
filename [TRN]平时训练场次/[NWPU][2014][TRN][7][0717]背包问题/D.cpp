@@ -1,20 +1,15 @@
-/******************************************************************************
+ï»¿/******************************************************************************
 *       COPYRIGHT NOTICE
 *       Copyright (c) 2014 All rights reserved
 *       ----Stay Hungry Stay Foolish----
 *
 * @author		:Shen
 * @name         :[NWPU][2014][TRN][7] D
-* @file         :G:\My Source Code\¡¾ACM¡¿ÑµÁ·\[NWPU][2014][TRN][7][0717]±³°üÎÊÌâ\D.cpp
+* @file         :[NWPU][2014][TRN][7][0717]èƒŒåŒ…é—®é¢˜\\D.cpp
 * @date         :2014/07/17 10:54
 * @algorithm    :Package
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -26,14 +21,31 @@ using namespace std;
 template<class T>inline bool updateMin(T& a, T b){ return a > b ? a = b, 1 : 0; }
 template<class T>inline bool updateMax(T& a, T b){ return a < b ? a = b, 1 : 0; }
 
-typedef long long int64;
+const int MaxN = 105;
+int a[MaxN][MaxN];
+int n, m, dp[MaxN];
+
+// åˆ†ç»„èƒŒåŒ…
+// dp[v] = max(dp[v], dp[v - c[i]] + w[i]);
 
 void solve()
 {
-
+	for (int i = 0; i < n; i++)
+		for (int j = 1; j <= m; j++)
+			scanf("%d", &a[i][j]);
+	memset(dp, 0, sizeof(dp));
+	for (int x = 0; x < n; x++)
+	{
+		for (int i = m; i >= 0; i--)
+			for (int j = 1; j <= m; j++)
+				if (i >= j)
+					updateMax(dp[i], dp[i - j] + a[x][j]);
+	}
+	printf("%d\n", dp[m]);
 }
 
 int main()
 {
+	while (~scanf("%d%d", &n,&m) && n && m) solve();
 	return 0;
 }

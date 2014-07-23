@@ -27,6 +27,10 @@ int n, dp[MaxM], ans[MaxN];
 int path[MaxM], used[MaxM];
 int num[4], val[4] = {1, 5, 10, 25};
 
+// 完全背包, 同时用path记录路径
+// 转移方程：
+// dp[j] = max(dp[j], dp[j - val[i]] + 1)
+
 void solve()
 {
     for (int i = 0; i < 4; i++) scanf("%d", &num[i]);

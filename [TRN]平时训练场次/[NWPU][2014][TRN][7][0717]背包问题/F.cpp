@@ -10,11 +10,6 @@
 * @algorithm    :Package
 ******************************************************************************/
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma GCC optimize ("O2")
-//#pragma comment(linker, "/STACK:1024000000,1024000000")
-
-//#include <bits/stdc++.h>
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -29,6 +24,10 @@ template<class T>inline bool updateMax(T& a, T b){ return a < b ? a = b, 1 : 0; 
 const int MaxN = 1005;
 int v[MaxN], w[MaxN], dp[MaxN];
 int t, n, V;
+
+// 01背包
+// 转移方程：
+// dp[j] = max(dp[j], dp[j - w[i]] + v[i])
 
 void solve()
 {

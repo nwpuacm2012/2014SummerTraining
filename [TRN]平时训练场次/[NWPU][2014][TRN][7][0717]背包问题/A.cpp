@@ -32,6 +32,10 @@ const int MaxN = 505;
 int dp[MaxW], p[MaxN], w[MaxN];
 int t, n, v, E, F;
 
+// 完全背包
+// 转移方程：
+// dp[j] = min(dp[j], dp[j - w[i]] + p[i])
+
 void solve()
 {
     scanf("%d%d%d", &E, &F, &n); v = F - E;
