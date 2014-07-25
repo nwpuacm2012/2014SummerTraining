@@ -56,6 +56,8 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=50731#overview)<br />
 [NWPU][2014][TRN][13][0724]线段树Div2
 [比赛地址](http://vjudge.net/contest/view.action?cid=50850#overview)<br />
+[NWPU][2014][TRN][14][0725]线段树Div1
+[比赛地址](http://vjudge.net/contest/view.action?cid=50976#overview)<br />
 
 其余训练场次：Other Training March，OTRN
 ------------------------------
