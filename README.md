@@ -14,6 +14,8 @@
 [————题解地址](http://blog.csdn.net/polossk/article/details/37713365)<br />
 [NWPU][2014][SRM][3][0717]搜索与动规
 [比赛地址](http://vjudge.net/contest/view.action?cid=49918#overview)<br />
+[NWPU][2014][SRM][4][0727]前两名有书哦！！
+[比赛地址](http://vjudge.net/contest/view.action?cid=51335#overview)<br />
 
 小队比赛场次：Team Round March，TRM 
 ------------------------------
@@ -58,6 +60,8 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=50850#overview)<br />
 [NWPU][2014][TRN][14][0725]线段树Div1
 [比赛地址](http://vjudge.net/contest/view.action?cid=51005#overview)<br />
+[NWPU][2014][TRN][15][0726]矩阵快速幂和树状数组
+[比赛地址](http://vjudge.net/contest/view.action?cid=51124#overview)<br />
 
 其余训练场次：Other Training March，OTRN
 ------------------------------
