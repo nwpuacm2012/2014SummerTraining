@@ -63,6 +63,10 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=51005#overview)<br />
 [NWPU][2014][TRN][15][0726]矩阵快速幂和树状数组
 [比赛地址](http://vjudge.net/contest/view.action?cid=51124#overview)<br />
+[NWPU][2014][TRN][16][0728]图论拓扑排序
+[比赛地址](http://vjudge.net/contest/view.action?cid=51448#overview)<br />
+[NWPU][2014][TRN][17][0729]最小生成树
+[比赛地址](http://vjudge.net/contest/view.action?cid=51564#overview)<br />
 
 其余训练场次：Other Training March，OTRN
 ------------------------------
@@ -81,3 +85,15 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=50529#overview)<br />
 [NWPU][2014][RTM][3][0801]二分与贪心
 [比赛地址](http://vjudge.net/contest/view.action?cid=50530#overview)<br />
+[NWPU][2014][RTM][4][0801]线性dp
+[比赛地址](http://vjudge.net/contest/view.action?cid=51566#overview)<br />
+[NWPU][2014][RTM][5][0801]背包问题
+[比赛地址](http://vjudge.net/contest/view.action?cid=51567#overview)<br />
+[NWPU][2014][RTM][6][0801]区间dp
+[比赛地址](http://vjudge.net/contest/view.action?cid=51568#overview)<br />
+[NWPU][2014][RTM][7][0801]树形dp
+[比赛地址](http://vjudge.net/contest/view.action?cid=51569#overview)<br />
+[NWPU][2014][RTM][8][0801]状压dp
+[比赛地址](http://vjudge.net/contest/view.action?cid=51571#overview)<br />
+[NWPU][2014][RTM][9][0801]数位dp
+[比赛地址](http://vjudge.net/contest/view.action?cid=51572#overview)<br />
