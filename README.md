@@ -16,7 +16,10 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=49918#overview)<br />
 [NWPU][2014][SRM][4][0727]前两名有书哦！！
 [比赛地址](http://vjudge.net/contest/view.action?cid=51335#overview)<br />
-
+[NWPU][2014][SRM][5][0731]水题欢乐赛
+[比赛地址](http://vjudge.net/contest/view.action?cid=51908#overview)<br />
+[NWPU][2014][SRM][6][0801]马上放假啦，大家开心吗？
+[比赛地址](http://vjudge.net/contest/view.action?cid=51905#overview)<br />
 小队比赛场次：Team Round March，TRM 
 ------------------------------
 [NWPU][2014][TRM][1][0713]是时候表演真正的团队合作了！ 
@@ -67,6 +70,8 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=51448#overview)<br />
 [NWPU][2014][TRN][17][0729]最小生成树
 [比赛地址](http://vjudge.net/contest/view.action?cid=51564#overview)<br />
+[NWPU][2014][TRN][17][0730]最短路
+[比赛地址](http://vjudge.net/contest/view.action?cid=51665#overview)<br />
 
 其余训练场次：Other Training March，OTRN
 ------------------------------
