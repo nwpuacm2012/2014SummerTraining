@@ -48,7 +48,7 @@
 [————题解地址](http://blog.csdn.net/polossk/article/details/37950159)<br />
 [NWPU][2014][TRN][7][0717]背包问题
 [比赛地址](http://vjudge.net/contest/view.action?cid=49932#overview)<br />
-[————题解地址](http://blog.csdn.net/polossk/article/details/38074773)<br />
+[————题解地址](http://polossk.com/archives/762)<br />
 [NWPU][2014][TRN][8][0717]区间DP
 [比赛地址](http://vjudge.net/contest/view.action?cid=49961#overview)<br />
 [NWPU][2014][TRN][9][0718]树状DP
