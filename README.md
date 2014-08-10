@@ -59,7 +59,7 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=50274#overview)<br />
 [NWPU][2014][TRN][12][0723]并查集
 [比赛地址](http://vjudge.net/contest/view.action?cid=50731#overview)<br />
-[————题解地址](http://blog.csdn.net/polossk/article/details/38237829)<br />
+[————题解地址](http://polossk.com/archives/731)<br />
 [NWPU][2014][TRN][13][0724]线段树Div2
 [比赛地址](http://vjudge.net/contest/view.action?cid=50850#overview)<br />
 [NWPU][2014][TRN][14][0725]线段树Div1
