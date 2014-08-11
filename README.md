@@ -11,7 +11,7 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=49336#overview)<br />
 [NWPU][2014][SRM][2][0711]基础题与简单算法
 [比赛地址](http://vjudge.net/contest/view.action?cid=49392#overview)<br />
-[————题解地址](http://blog.csdn.net/polossk/article/details/37713365)<br />
+[————题解地址](http://polossk.com/archives/836)<br />
 [NWPU][2014][SRM][3][0717]搜索与动规
 [比赛地址](http://vjudge.net/contest/view.action?cid=49918#overview)<br />
 [NWPU][2014][SRM][4][0727]前两名有书哦！！
@@ -24,7 +24,7 @@
 ------------------------------
 [NWPU][2014][TRM][1][0713]是时候表演真正的团队合作了！ 
 [比赛地址](http://vjudge.net/contest/view.action?cid=49507#overview)<br />
-[————题解地址](http://blog.csdn.net/polossk/article/details/37757385)<br />
+[————题解地址](http://polossk.com/archives/838)<br />
 [NWPU][2014][TRM][2][0715]前面的一定不是水题
 [比赛地址](http://vjudge.net/contest/view.action?cid=49714#overview)<br />
 [NWPU][2014][TRM][3][0720]无题
@@ -45,7 +45,7 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=49586#overview)<br />
 [NWPU][2014][TRN][6][0716]简单线性dp
 [比赛地址](http://vjudge.net/contest/view.action?cid=49759#overview)<br />
-[————题解地址](http://blog.csdn.net/polossk/article/details/37950159)<br />
+[————题解地址](http://polossk.com/archives/834)<br />
 [NWPU][2014][TRN][7][0717]背包问题
 [比赛地址](http://vjudge.net/contest/view.action?cid=49932#overview)<br />
 [————题解地址](http://polossk.com/archives/762)<br />
