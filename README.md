@@ -38,7 +38,7 @@
 [比赛地址](http://vjudge.net/contest/view.action?cid=49375#overview)<br />
 [NWPU][2014][TRN][3][0712]搜索Div2
 [比赛地址](http://vjudge.net/contest/view.action?cid=49420#overview)<br />
-[————题解地址](http://blog.csdn.net/polossk/article/details/37818941)<br />
+[————题解地址](http://polossk.com/archives/846)<br />
 [NWPU][2014][TRN][4][0714]搜索Div1
 [比赛地址](http://vjudge.net/contest/view.action?cid=49557#overview)<br />
 [NWPU][2014][TRN][5][0714]二分与贪心
