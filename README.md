@@ -163,8 +163,8 @@
 
 [NWPU][2014][RTM][4][0801]线性dp
 [比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=51566#overview)<br />
-[NWPU][2014][RTM][5][0801]背包问题
 
+[NWPU][2014][RTM][5][0801]背包问题
 [比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=51567#overview)<br />
 
 [NWPU][2014][RTM][6][0801]区间dp
