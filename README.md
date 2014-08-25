@@ -111,6 +111,7 @@
 
 [NWPU][2014][TRN][15][0726]矩阵快速幂和树状数组
 [比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=51124#overview)<br />
+[————题解地址](http://polossk.com/archives/979)<br />
 
 [NWPU][2014][TRN][16][0728]图论拓扑排序
 [比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=51448#overview)<br />
