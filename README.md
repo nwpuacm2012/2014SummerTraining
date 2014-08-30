@@ -59,7 +59,17 @@
 [NWPU][2014][TRM][6][0824]第一场五小时组队赛
 [比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=54646#overview)<br />
 
+[NWPU][2014][TRM][7][0827]网络流大法好，万题皆可网络流
+[比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=54972#overview)<br />
 
+[NWPU][2014][TRM][8][0828]第二次五小时组队赛，XX年XX区域赛真题
+[比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=54987#overview)<br />
+
+[NWPU][2014][TRM][9][0829]群巨是不是都去见学弟学妹们了？？？
+[比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=55149#overview)<br />
+
+[NWPU][2014][TRM][10][0830]暑假集训收官之战！
+[比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=55199#overview)<br />
 
 平时训练场次：Training March，TRN
 ------------------------------
@@ -139,6 +149,12 @@
 
 [NWPU][2014][TRN][24][0825]网络流
 [比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=54770#overview)<br />
+
+[NWPU][2014][TRN][25][0826]字符串
+[比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=54890#overview)<br />
+
+[NWPU][2014][TRN][26][0827]二分图匹配
+[比赛地址](http://vjudge.net/vjudge/contest/view.action?cid=54907#overview)<br />
 
 其余训练场次：Other Training March，OTRN
 ------------------------------
