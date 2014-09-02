@@ -1,0 +1,9 @@
+ID	Origin	Title
+Problem A	POJ 2769	同余
+Problem B	POJ 1061	扩展欧几里得
+Problem C	POJ 2155	扩展欧几里得
+Problem D	HDU 3579	同余方程组求解
+Problem E	POJ 1006	中国剩余定理
+Problem F	HDU 1788	同余
+Problem G	POJ 1811	素数测定和整数分解
+Problem H	POJ 2429	整数分解
