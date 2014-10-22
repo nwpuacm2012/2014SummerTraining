@@ -1,8 +1,8 @@
-﻿// <!--encoding UTF-8 UTF-8编码--!>
+// <!--encoding UTF-8 UTF-8编码--!>
 /*****************************************************************************
 *                      ----Stay Hungry Stay Foolish----                      *
 *    @author    :   Shen                                                     *
-*    @name      :   D                                                        *
+*    @name      :   A                                                        *
 *****************************************************************************/
 
 #include <map>
@@ -29,50 +29,47 @@ inline double nextDbf() { double x; scanf("%lf", &x); return x; }
 inline int64  nextlld() { int64 d; scanf("%lld", &d); return d; }
 inline int64  next64d() { int64 d; scanf("%I64d",&d); return d; }
 
-int64 gcd_ex(int64 a, int64 b, int64& x, int64& y)
-{
-    if (b == 0) { x = 1; y = 0; return a; }
-    int64 d = gcd_ex(b, a % b, y, x);
-    y = y - a / b * x;
-    return d;
-}
+const int MaxN = 1005;
+const int MaxL = 16;
 
-inline int64 mod(int64 a, int64 m) { return a % m + (a % m > 0? 0: m); }
+const int f[MaxL] = {
+    1, 2, 3, 5, 8, 13, 21, 34, 55,
+    89, 144, 233, 377, 610, 987, 1597
+};
 
-/// x = ai (mod mi), for i := [0, n)
-/// @return legal Equalion? result: -1;
-int64 CRT_ex(int n, int a[], int m[])
+int sg[MaxN]; bool h[MaxL];
+int n, m, l;
+
+void SG()
 {
-    if (n == 1 && a[0] == 0) return m[0];
-    int64 ans = a[0], lcm = m[0];
-    bool flag = true;
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < MaxN; i++)
     {
-        int64 x, y, gcd;
-        gcd = gcd_ex(lcm, m[i], x, y);
-        if ((a[i] - ans) % gcd) { flag = false; break; }
-        int64 tmp = lcm * mod((a[i] - ans) / gcd * x, m[i] / gcd);
-        lcm = lcm / gcd * m[i];
-        ans = mod(ans + tmp, lcm);
+        fill(h, h + 16, 0);
+        for (int j = 0; j < MaxL; j++)
+        {
+            if (i < f[j]) break;
+            h[sg[i - f[j]]] = 1;
+        }
+        for (int j = 0; j < MaxL; j++) if (!h[j])
+        {
+            sg[i] = j;
+            break;
+        }
     }
-    return flag? ans: -1;
 }
-
-const int MaxN = 203;
-int t, tt;
-int n, a[MaxN], m[MaxN];
 
 void solve()
 {
-	n = nextInt();
-    for (int i = 0; i < n; i++) m[i] = next64d();
-    for (int i = 0; i < n; i++) a[i] = next64d();
-    printf("Case %d: %I64d\n", ++tt, CRT_ex(n, a, m));
+    if (sg[n] ^ sg[m] ^ sg[l])
+        puts("Fibo");
+    else
+        puts("Nacci");
 }
-
 
 int main()
 {
-    t = nextInt(); while (t--) solve();
+    SG();
+    while (~scanf("%d%d%d", &n, &m, &l) && m)
+        solve();
     return 0;
 }

@@ -1,0 +1,13 @@
+ID	Origin	Title
+Problem A	POJ 2484	推理
+Problem B	POJ 1082	推理
+Problem C	POJ 1067	威佐夫博弈
+Problem D	POJ 1740	规律
+Problem E	POJ 2234	nim
+Problem F	POJ 1704	nim
+Problem G	POJ 3537	sg
+Problem H	POJ 2068	博弈dp/sg
+Problem I	POJ 2311	sg
+Problem J	POJ 2425	sg
+Problem K	CodeForces 455B	博弈
+Problem L	POJ 2599	博弈

@@ -1,10 +1,14 @@
-﻿// <!--encoding UTF-8 UTF-8编码--!>
+// <!-- encoding UTF-8 --!>
 /*****************************************************************************
 *                      ----Stay Hungry Stay Foolish----                      *
 *    @author    :   Shen                                                     *
-*    @name      :   D                                                        *
+*    @name      :   poj 2311                                                 *
 *****************************************************************************/
+// 人一我百，人十我万！追逐青春的梦想，怀着自信的心，永不放弃！
+//#pragma GCC optimize ("O2")
+//#pragma comment(linker, "/STACK:1024000000,1024000000")
 
+//#include <bits/stdc++.h>
 #include <map>
 #include <list>
 #include <queue>
@@ -29,50 +33,37 @@ inline double nextDbf() { double x; scanf("%lf", &x); return x; }
 inline int64  nextlld() { int64 d; scanf("%lld", &d); return d; }
 inline int64  next64d() { int64 d; scanf("%I64d",&d); return d; }
 
-int64 gcd_ex(int64 a, int64 b, int64& x, int64& y)
+const bool WIN  = true;
+const bool LOSE = false;
+const char aye[] = "Yes";
+const char nay[] = "No";
+const char ace[] = "Alice";
+const char bob[] = "Bob";
+
+int sg[205][205];
+int n, m;
+
+int dfs(int n, int m)
 {
-    if (b == 0) { x = 1; y = 0; return a; }
-    int64 d = gcd_ex(b, a % b, y, x);
-    y = y - a / b * x;
-    return d;
+    if (sg[n][m] != -1) return sg[n][m];
+    bool vis[1024]; fill(vis, vis + 1024, LOSE);
+    for (int i = 2; i <= n - i; i++)
+        vis[dfs(i, m) ^ dfs(n - i, m)] = WIN;
+    for (int i = 2; i <= m - i; i++)
+        vis[dfs(n, i) ^ dfs(n, m - i)] = WIN;
+    for (int i = 0; ; i++) if (vis[i] == LOSE)
+        return sg[n][m] = i;
 }
-
-inline int64 mod(int64 a, int64 m) { return a % m + (a % m > 0? 0: m); }
-
-/// x = ai (mod mi), for i := [0, n)
-/// @return legal Equalion? result: -1;
-int64 CRT_ex(int n, int a[], int m[])
-{
-    if (n == 1 && a[0] == 0) return m[0];
-    int64 ans = a[0], lcm = m[0];
-    bool flag = true;
-    for (int i = 1; i < n; i++)
-    {
-        int64 x, y, gcd;
-        gcd = gcd_ex(lcm, m[i], x, y);
-        if ((a[i] - ans) % gcd) { flag = false; break; }
-        int64 tmp = lcm * mod((a[i] - ans) / gcd * x, m[i] / gcd);
-        lcm = lcm / gcd * m[i];
-        ans = mod(ans + tmp, lcm);
-    }
-    return flag? ans: -1;
-}
-
-const int MaxN = 203;
-int t, tt;
-int n, a[MaxN], m[MaxN];
 
 void solve()
 {
-	n = nextInt();
-    for (int i = 0; i < n; i++) m[i] = next64d();
-    for (int i = 0; i < n; i++) a[i] = next64d();
-    printf("Case %d: %I64d\n", ++tt, CRT_ex(n, a, m));
+    if (dfs(n, m)) puts("WIN");
+    else puts("LOSE");
 }
-
 
 int main()
 {
-    t = nextInt(); while (t--) solve();
+    memset(sg, -1, sizeof(sg));
+    while (~scanf("%d%d", &n, &m)) solve();
     return 0;
 }
